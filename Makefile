@@ -9,3 +9,6 @@ tests_pos:
 
 tests_neg:
 	pytest -v tests/test.py -k negative --alluredir allure-results
+
+tests_all:
+	pytest -v tests/test.py --alluredir allure-results
