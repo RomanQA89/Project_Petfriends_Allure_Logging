@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-"""Валидные данные"""
+"""Валидные данные тут"""
 valid_email = os.getenv('valid_email')
 valid_password = os.getenv('valid_password')
 BASE_URL = 'https://petfriends.skillfactory.ru/api'
